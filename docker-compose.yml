@@ -1,0 +1,8 @@
+version: '2'
+services:
+  zapping-maker:
+    image: a0f41d42ee24
+    environment:
+      - SPRING_PROFILES_ACTIVE=dev
+    ports:
+      - 8080:8080
